@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #242832;
+  background: #fff;
+}
+
+.header {
+  background: linear-gradient(to right, #2879f5, #4420e8);
+  color: white;
+  padding: 25px 20px 35px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 10px 0 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 65px auto;
+  padding: 0 20px;
+}
+
+.blog-post {
+  padding: 45px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px #00000018;
+}
+
+.blog-post h2 {
+  font-size: 32px;
+}
+
+.blog-post p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.comments {
+  margin-top: 45px;
+}
+
+.comments h2 {
+  font-size: 28px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font: inherit;
+  resize: vertical;
+}
+
+button {
+  background: #ffb900;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e5a600;
+}
+
+.comments h3 {
+  margin-top: 35px;
+}
+
+.comments li {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+footer {
+  background: #1f2632;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.blog-post {
+  margin-bottom: 30px;
+}
+
+.blog-post a {
+  color: #2869db;
+}
+
+.contact-page {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+.contact-page input,
+.comments input {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.contact-page textarea {
+  margin-top: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 20px;
+  }
+
+  nav {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  .blog-post {
+    padding: 20px;
+  }
+}
